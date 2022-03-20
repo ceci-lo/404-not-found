@@ -1,29 +1,52 @@
 *{
     padding: 0;
     margin: 0;
+    color:rgba(9, 8, 9, 0.8);
 }
 .header {
 margin: 2.2em 3.5em;
 }
 .box {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     flex-direction: row;
-    margin-top: 12em;
+    margin:8em 6em;
+    margin-left: 8em;
 }
 
 .imagen {
-    width: 65%;
-    height: 87%;
-
+    width: 95%;
+    
 }
-.box-two{
-    font-family: 'Inconsolata', monospace;
+.box-one  {
+    padding-right: 9em;
 }
-
+.box-two {
+    padding-left: 9em;
+}
 .text-title {
     font-weight: bold;
-    font-size: 1.5em;
-    padding-bottom: 1.5em;
+    font-size: 1.7em;
+    color:rgba(9, 8, 9, 0.8);
+    padding-bottom: 1em;
+    margin-right: 10em;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Space Mono', monospace;
+  
+}
+.text-paraf {
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Space Mono', monospace;
+    color: rgba(9, 8, 9, 0.8);
+    font-size: 25px;
+    padding-bottom: 1em;
+    margin-right: 15em;
+}
 
+button {
+    background-color: rgba(9, 8, 9, 0.8); 
+    color: white;
+    width: 25%;
+    height: 12.5%;
+    margin-top: 1.5em;
 }
