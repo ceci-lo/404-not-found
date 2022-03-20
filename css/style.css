@@ -15,19 +15,20 @@ margin: 2.2em 3.5em;
 }
 
 .imagen {
-    width: 95%;
+    width: 100%;
     
 }
-.box-one  {
-    padding-right: 9em;
-}
+
 .box-two {
-    padding-left: 9em;
+    padding-left: 6em;
+    display: flex;
+    flex-direction: column;
+   justify-content:space-between;
+    
 }
 .text-title {
     font-weight: bold;
     font-size: 1.7em;
-    color:rgba(9, 8, 9, 0.8);
     padding-bottom: 1em;
     margin-right: 10em;
     font-family: 'Inconsolata', monospace;
@@ -37,7 +38,6 @@ margin: 2.2em 3.5em;
 .text-paraf {
     font-family: 'Inconsolata', monospace;
     font-family: 'Space Mono', monospace;
-    color: rgba(9, 8, 9, 0.8);
     font-size: 25px;
     padding-bottom: 1em;
     margin-right: 15em;
@@ -48,5 +48,4 @@ button {
     color: white;
     width: 25%;
     height: 12.5%;
-    margin-top: 1.5em;
 }
