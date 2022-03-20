@@ -49,3 +49,8 @@ button {
     width: 25%;
     height: 12.5%;
 }
+
+.footer{
+    text-align: center;
+    color: gray;
+}
